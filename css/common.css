@@ -1,0 +1,129 @@
+/*默認樣式重置*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    margin-top: 0;
+
+}
+
+body.p, h1, h2, h3, h4, h5, h6, dl, dd {
+    margin: 0;
+    font-size: 12px;
+}
+
+　　ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+　　img {
+    border: none;
+}
+
+　　a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/*===============================================================*/
+.core_width {
+    width: 60%;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+.margin-top {
+    margin-top: 200px;
+}
+.margin-top20{
+    margin-top: -20px;
+}
+
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    z-index: 2;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.top-nav .nav-left {
+    margin-left: 100px;
+    width: 250px;
+}
+
+.top-nav .nav-left img {
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+.top-nav .nav-left p {
+    margin-left: 30px;
+
+}
+
+.top-nav .nav-left p {
+    position: relative;
+    top: 3px;
+    font-weight: 800;
+
+}
+
+.top-nav .nav-left p {
+    font-size: 20px;
+
+}
+
+.top-nav .nav-left p:last-child {
+    color: yellowgreen;
+
+}
+
+.nav-right ul {
+    display: inline-flex;
+    padding: 20px;
+    position: relative;
+    right: 50px;
+
+}
+
+.nav-right ul li {
+    margin-left: 50px;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+/*==============================*/
+
+
+#bottom_bar {
+    position: relative;
+    top: 100%;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+
+}
+#bottom_bar p{
+    color:yellow;
+}
